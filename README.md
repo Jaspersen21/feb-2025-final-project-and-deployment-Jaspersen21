@@ -1,25 +1,31 @@
-# Final Project and Deployment
+# 🍫☕ ChocoLuxe Café & Bakery – Final Project Documentation
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+## 📝 Overview
+This project is a responsive, multipage website showcasing chocolate, coffee, and cupcakes. Built using:
+- HTML5 (semantic tags)
+- CSS3 (grid, transitions, animations)
+- JavaScript (theme toggle, product filtering, wishlist, form validation)
+- Deployed via [GitHub Pages](https://jaspersen21.github.io/ChocoLuxe-Caf-Bakery/
+)
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## 📁 Folder Structure
+choco-luxe-cafe/
+│
+├── index.html # Product grid with filter
+├── style.css # Styling with animations
+├── script.js # JS logic
+└── assets/ # Chocolate, coffee, cupcake images
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+## 🛠️ Features
+- Responsive layout using CSS Grid and Flexbox
+- JavaScript interactivity: filter, theme toggle, wishlist, form validation
+- LocalStorage to save user preferences
+- Light/Dark mode toggle
 
-## Tasks
+## 🚀 Deployment Link
+Live site: [GitHub Pages](https://jaspersen21.github.io/ChocoLuxe-Caf-Bakery/
+)
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
-
-Good luck and happy coding! 🚀💻
+## 🧑‍💻 Developer
+Your Jasper 
+Date: May 2025  
