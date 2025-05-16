@@ -1,0 +1,140 @@
+/* Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf9;
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  body.light {
+    background-color: #fffaf9;
+    color: #333;
+  }
+  
+  body.dark {
+    background-color: #1e1e1e;
+    color: #eee;
+  }
+  
+  /* Nav */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffece9;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a,
+  .filter-btn {
+    text-decoration: none;
+    color: #e65179;
+    margin-left: 1rem;
+  }
+  
+  #theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to bottom, #ffece9, #ffffff);
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    color: #e65179;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Filter Buttons */
+  .filter-btn {
+    background: none;
+    border: 1px solid #e65179;
+    color: #e65179;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .filter-btn.active,
+  .filter-btn:hover {
+    background-color: #e65179;
+    color: white;
+  }
+  
+  /* Products */
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e65179;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c23d67;
+  }
